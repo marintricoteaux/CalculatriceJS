@@ -64,7 +64,8 @@ document.addEventListener("click", (event) => {
 // On écoute tout les évènements de touches préssés
 document.addEventListener("keydown", (event) => {
     // Pour les nombres
-    if (event.key === "1" ||
+    if (event.key === "0" || 
+        event.key === "1" ||
         event.key === "2" ||
         event.key === "3" ||
         event.key === "4" ||
