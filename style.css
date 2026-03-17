@@ -33,6 +33,8 @@ main {
 #screen {
     width: 100%;
     height: 2rem;
+
+    text-align: end;
 }
 
 #btnZone {
@@ -47,9 +49,10 @@ main {
     padding-bottom: 0;
 }
 
-#btnResult {
-    grid-column-start: 2;
-    grid-column-end: 4;
+
+#btnReset {
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 .btn {

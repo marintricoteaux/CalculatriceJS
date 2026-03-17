@@ -21,8 +21,21 @@ function calculResult(leftComponent, operator, rightComponent) {
         case "*":
             return (a * b);
         case "/":
-            return (a / b);
+            if (b !== 0) {
+                return (a / b);
+            } else {
+                return "ERROR";
+            }
         case "":
             return "ERROR";
     }
+}
+
+function resetInput(leftC = "") {
+    input = {
+        leftComponent : leftC,
+        operator : "",
+        rightComponent : "",
+        operatorEntered : false,
+    };
 }
